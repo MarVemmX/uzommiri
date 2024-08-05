@@ -91,3 +91,27 @@
 .item:last-child {
   padding: 10px;
 }
+
+
+.activity-container {
+  /* gap: 10px; */
+}
+
+
+.activity {
+  padding: 10px;
+  color: white;
+  /* background-color: black; */
+  /* display: grid; */
+
+}
+
+
+.current-month {
+  background-color: #c1392b;
+}
+
+
+.days, .date-range, .content {
+  margin: 5px 0;
+}

@@ -92,7 +92,7 @@ const NavBar = () => {
   }, [isHovered]);
 
   return (
-    <nav className="bg-none p-4 relative z-50">
+    <nav className="bg-none z-50 p-4 relative z-50">
       <div className="container mx-auto flex items-center justify-between space-x-20 ">
         <div className="flex flex-row space-x-2">
           <img
@@ -118,7 +118,7 @@ const NavBar = () => {
                <p className='text-sm'> <FaCaretDown /></p>
             </div>
             <div
-              className={`sub absolute left-0  w-40 bg-black text-center py-4 text-white transition-all duration-500 ease-in-out 
+              className={`sub z-50 absolute left-0  w-40 bg-black text-center py-4 text-white transition-all duration-500 ease-in-out 
                 ${isHovered ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}`}
             >
               <div className="item p-2">Tweens and Teens</div>
