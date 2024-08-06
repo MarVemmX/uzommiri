@@ -1,8 +1,8 @@
 import React from 'react'
-import univ from '/public/assets/univ.png';
-import mentoring from '/public/assets/mentoring.png';
-import pearl from '/public/assets/Pearl.png';
-import retreat from '/public/assets/retreat.png';
+import univ from '/assets/univ.png';
+import mentoring from '/assets/mentoring.png';
+import pearl from '/assets/Pearl.png';
+import retreat from '/assets/retreat.png';
 
 
 const Activities = () => {

@@ -7,8 +7,12 @@ export default {
   theme: {
     
     extend: {
+      maxHeight:{
+          '10': '2.5rem',
+      },
       colors: {
-        'border':'#b7babc',
+        // 'border':'#b7babc',
+        
       },
       fontFamily: {
         'Montserrat': ['Montserrat', 'sans-serif'],
